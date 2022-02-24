@@ -1,0 +1,411 @@
+html{box-sizing: border-box;}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+        background-color: #FFFFFF;
+}
+
+.navegacion{
+    display: flex;
+    max-height: 100px;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    height: 400px;
+    
+}
+
+li{ 
+   border-right: 1px solid #bbb;  
+   background-color: white;  
+}
+
+li a i{
+    color: black;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+ 
+
+
+.navegacion ul li{
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;    
+    font-size: 17px;
+    font-family: 'Archivo Black', 
+    
+}
+
+
+
+
+#name {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 20px;
+}
+
+.fondo {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right top, #02070f, #060f12, #0e1414, #151817, #1b1c1a);
+    height: 400px;
+    width: 100%;
+}
+
+
+span{
+    font-size: 20px;
+}
+.fondo p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+.letras{
+    margin: 0;
+    padding-left: 200px;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.porta{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.imagenes{
+    display: flex;
+    padding-top: 10px;
+    text-align: center;
+    padding-top: 50px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.imagenes img{
+    height: 350px;
+    width: 350px;
+    padding-left: 10px;
+}
+
+.contefin{
+    padding-top: 0px;
+    display: flex;
+    background-image: linear-gradient(to right top, #02070f, #060f12, #0e1414, #151817, #1b1c1a);
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.contefin div img{
+    padding: 0;
+    margin: 0;
+    width: 350px;
+    height: 350px;  
+    border-radius: 10%; 
+}
+
+.contefin div{
+    
+    color: white;
+}
+
+.letras1 ul li{
+    display: inline-block;
+    height: 50px;
+    color: white;
+    list-style: none;
+    padding-left: 10px;
+    position: relative;
+    right: 40px;
+}
+
+.letras1 ul li i{
+    height: 200px;
+}
+
+
+footer h1{
+    
+    font-size: 20px;
+    color: black;
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+}
+
+/*
+.card{
+    width: 350px;
+    min-height: 250px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px rgba(247, 244, 244, 0.24);
+    background-image: linear-gradient(to top, #444446 0%, #444446 12%, #444446 25%, #3e3e3f 37%, #444446 50%, #444446 62%, #444446 75%, #444446 87%, #444446 100%);
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.card__pers{
+    background-image: url(/imagenes/goyo.png);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 130px;
+    margin: 0 auto;
+    margin-top: 105px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+.card__name{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.carmedia{
+    margin-top: 40px;
+    padding-top: 20px;
+    width: 100%;
+    height: 90px;
+    border-top: 1px solid #b3a2a2;
+    display: flex;
+    justify-content: center;
+}
+*/
+
+.contegale {
+    padding-top: 0;
+    margin: 0%;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    display: grid;
+    height: 810px;
+    grid-template-columns: 500px 450px 450px;
+    grid-template-rows: 600px 600px 600px;
+    grid-area: 
+    "galeria aside aside"
+    "galeria aside aside"
+    "galeria aside aside";
+
+}
+
+.aside{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    position: absolute;
+    left: 500px;
+    grid-area: "aside";
+    padding-left: 5px;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    grid-template-columns: 265px 265px 265px;
+    grid-template-rows: 265px 265px 265px;
+}
+
+.galeria{ 
+
+    /* position: fixed; */
+    grid-area: "galeria";
+    background-position: center;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 100px;
+    height: 900px;
+}
+
+.galeria p{
+    color: black;
+    font-size: 50px;
+    opacity: 1;
+
+}
+
+
+
+.a img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;    
+}
+
+
+
+
+.b img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;    
+}
+
+
+
+.c{
+    background-color: #137fe4;
+    
+}
+
+.c img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;    
+}
+
+.d{
+    background-color: #e21168;
+    
+}
+
+.d img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;    
+}
+
+.e{
+    background-color: #a3a2b3;
+    
+}
+
+.e img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;    
+}
+
+
+
+.f{
+    background-color: #5cdb13;
+    
+}
+.f img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+
+.g img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.h img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.i img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.icono div{
+display: inline;
+}
+
+.face{
+    color: #0558df;
+}
+
+.insta{
+    color: red;
+}
+
+.inicio h2{
+    font-family: 'Bebas Neue', cursive;;
+    font-size: 80px;
+    margin: 0%;
+}
+
+.inicio h1{
+    font-family: 'Bebas Neue', cursive;;
+    color: #a3a2b3;
+    margin: 0;
+    padding: 0;
+}
+
+.inicio p{
+    font-size: 15px;
+    padding-top: 130px;
+}
+
+
+.contenedorn{
+    height: 200px;
+    width: 500px;
+    background-color: #02070f;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.ab{
+    height: 50px;
+    width: 50px;
+    background-color: #5cdb13;
+    margin-top: 350px;
+}
+
+
+.final{
+    display: flex;
+    margin-top: 1px;
+    background-image: linear-gradient(to right top, #02070f, #060f12, #0e1414, #151817, #1b1c1a);
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    color: #dfe9f3;
+}
+
+.info {
+    margin: auto;
+}
+
+.direccion img {
+    width: 410px;
+    height: 280px;
+    padding-top: 70px;
+    padding-right: 80px;
+} 
+
+
+.iconos  div{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
